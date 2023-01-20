@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    object-fit: cover;
+    object-position: center;
+}
+
+@media all and (max-width: 217px) {
+    .hero {
+        font-size: smaller !important;
+    }
+}
+
+@media all and (max-width: 177px) {
+    .hero {
+        font-size: 10px !important;
+    }
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.53);
+}
